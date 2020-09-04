@@ -1,0 +1,9 @@
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > *:nth-child(2){
+  flex: 1;
+}

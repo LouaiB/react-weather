@@ -1,0 +1,44 @@
+.search
+    padding: 30px 20px
+    background: var(--section-color)
+
+    .search-area
+        position: relative
+        background: var(--section-color)
+        height: 50px
+
+        .search-box
+            position: absolute
+            top: 0
+            bottom: 0
+            left: 0
+            right: 0
+            height: 100%
+            width: 100%
+            padding: 10px 20px
+            box-sizing: border-box
+            border: 1px solid #88888855
+            border-radius: var(--border-radius)
+            background: var(--input-bg-color)
+            color: var(--foreground-color)
+
+
+        .search-btn
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 20px
+            border: 0
+            background: transparent
+            outline: none
+            cursor: pointer
+            color: var(--foreground-color)
+
+.spin
+    animation: spin infinite 1s linear
+
+@keyframes spin
+    0%
+        transform: rotateZ(0deg)
+    100%
+        transform: rotateZ(360deg)
